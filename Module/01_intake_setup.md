@@ -1,9 +1,17 @@
-Tasks:
+Purpose: Prepare the document for structured summarization. Steps:
 
-Parse the paper into sections (e.g., Introduction, Methods, Results, Discussion, Conclusion).
+Identify sections by name and number
 
-Assign section numbers (e.g., Section 1: Introduction).
+Example: Section 1 → Introduction, Section 2 → Methods, Section 3 → Results, Section 4 → Discussion.
 
-Detect sections with fewer than 20 words.
+Check word count per section
 
-Identify missing sections (e.g., if no "Discussion" is present).
+Flag sections with fewer than 20 words.
+
+Detect missing sections
+
+Compare against expected academic paper structure (Introduction, Methods, Results, Discussion, Conclusion, References).
+
+Output metadata
+
+Section list with: name, number, word count, missing/short flags.
