@@ -1,1 +1,1 @@
-There are a total of 
+There are a total of 8 files each containing specific rules and expectations for the system prompt. the reference framework is to show the the expected output would be if the LLM were to follow the system prompt. furthermore, the intake
