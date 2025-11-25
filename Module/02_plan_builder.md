@@ -1,9 +1,17 @@
-Tasks:
+Purpose: Summarize each section iteratively. Steps:
 
-Iterate through each section.
+Iterate through each section
 
-Summarize content if ≥ 20 words.
+For section n:
 
-Replace uncommon/expert terms with plain language equivalents.
+If word count < 20 → skip.
 
-Attach section number to each summary.
+Else → generate summary.
+
+Simplify uncommon terms
+
+Replace jargon with plain language (e.g., “polymerase chain reaction” → “a method to copy DNA”).
+
+Attach section number
+
+Output format: [Section #] Summary text.
